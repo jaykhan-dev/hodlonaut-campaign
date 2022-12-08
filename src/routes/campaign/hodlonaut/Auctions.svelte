@@ -1,5 +1,5 @@
 <script>
-	import SpaceCat from '$lib/images/space-cat.png'
+	import SpaceCat from '$lib/images/space-cat.png';
 
 	// let date = new Date()
 </script>
@@ -10,8 +10,8 @@
 
 <div class="grid place-items-center lg:w-2/3 mx-auto text-center py-20 p-4">
 	<div class="flex justify-center" />
-	<h1 class="lg:text-6xl text-4xl font-black my-8">Auctions</h1>
-	<p>Latest form a variety of sources</p>
+	<h1 class="lg:text-8xl text-4xl font-black my-8">Auctions</h1>
+	<p class="text-2xl">Current and past auctions</p>
 
 	<!-- <div class="tabs tabs-boxed">
 		<a class="tab">Tab 1</a>

@@ -8,7 +8,7 @@
 </script>
 
 <header class="bg-gray-900/80 backdrop-blur-md border-b border-white/20 fixed top-0 w-full z-50">
-	<nav class="lg:w-2/3 py-2 px-4 mx-auto md:flex md:justify-between md:items-center">
+	<nav class="lg:w-2/3 py-4 px-4 mx-auto md:flex md:justify-between md:items-center">
 		<div class="flex items-center justify-between">
 			<div class="flex items-center space-x-2">
 				<img src={NewLogo} alt="Plebeian Market logo" width={40} />

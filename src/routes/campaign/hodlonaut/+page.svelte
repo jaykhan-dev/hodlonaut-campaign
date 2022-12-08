@@ -1,16 +1,20 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
 	import Auctions from './Auctions.svelte';
+	import Banner from '$lib/images/banner-100.jpg';
 </script>
 
 <svelte:head>
 	<title>Hodlonaut Campaign</title>
 	<meta name="services" content="Services SEO" />
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </svelte:head>
 
 <!-- HERO2-->
 <div transition:fade id="bgTwo" class="hero bg-fixed">
-	<div class="bg-gradient-to-b from-black/20 to-black w-full h-full py-20 grid place-items-center">
+	<div
+		class="bg-gradient-to-b from-black/20 to-gray-900 w-full h-full py-20 grid place-items-center"
+	>
 		<div class="hero-content text-white">
 			<div class="grid lg:grid-cols-2">
 				<div>
@@ -31,8 +35,48 @@
 						<button class="btn btn-outline">Fixed Price</button>
 					</div>
 				</div>
+				<!-- LOTTIE -->
+				<div class="grid place-items-center">
+					<lottie-player
+						src="https://assets2.lottiefiles.com/packages/lf20_rmizwv6a.json"
+						background="transparent"
+						speed="1"
+						loop
+						autoplay
+						class="opacity-40"
+						style="width: 400px; height: 400px"
+					/>
+				</div>
 			</div>
 		</div>
+	</div>
+</div>
+
+<!-- Banner -->
+<div class="lg:w-2/3 mx-auto my-20">
+	<img src={Banner} alt="Hodlonaut Banner" width="1280" />
+</div>
+
+<div class="flex justify-center my-8">
+	<div class="lg:flex lg:space-x-4">
+		<a
+			href="https://defendingbtc.com"
+			class="btn btn-outline"
+			rel="noopener noreferrer"
+			target="_blank">@defendingbtc</a
+		>
+		<a
+			href="https://twitter.com/hodlonaut"
+			class="btn btn-outline"
+			rel="noopener noreferrer"
+			target="_blank">@hodlonaut</a
+		>
+		<a
+			href="https://www.citadel21.com/"
+			class="btn btn-outline"
+			rel="noopener noreferrer"
+			target="_blank">@citadel21</a
+		>
 	</div>
 </div>
 
