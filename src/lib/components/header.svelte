@@ -1,5 +1,6 @@
 <script>
 	import NewLogo from '$lib/images/new-logo.svg';
+	import BitcoinPrice from './bitcoinPrice.svelte';
 	let showMenu = false;
 
 	function toggleNavbar() {
@@ -50,23 +51,24 @@
 				? 'flex'
 				: 'hidden'}"
 		>
-			<div class="dropdown">
-				<button class="btn btn-outline">Campaign</button>
-				<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-36">
-					<li><a href="/campaign/hodlonaut">Hodlonaut</a></li>
-					<li><a href="/campaign/auction">Auction</a></li>
-				</ul>
-			</div>
+			<div class="flex space-x-4 lg:mx-4">
+				<div class="dropdown">
+					<button class="btn btn-outline">Campaign</button>
+					<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-36">
+						<li><a href="/campaign/hodlonaut">Hodlonaut</a></li>
+						<li><a href="/campaign/auction">Auction</a></li>
+					</ul>
+				</div>
 
-			<div class="dropdown">
-				<button class="btn btn-outline">Scenes</button>
-				<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-36">
-					<li><a href="/scenes/one">One</a></li>
-					<li><a href="/scenes/two">Two</a></li>
-				</ul>
+				<div class="dropdown">
+					<button class="btn btn-outline">Scenes</button>
+					<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-36">
+						<li><a href="/scenes/one">One</a></li>
+						<li><a href="/scenes/two">Two</a></li>
+					</ul>
+				</div>
 			</div>
-
-			<a class="hover:text-blue-400" href="/data">Data</a>
+			<BitcoinPrice />
 			<!-- LIGHT MODE AND AVATAR -->
 			<div class="flex items-center space-x-4">
 				<div>

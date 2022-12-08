@@ -11,7 +11,7 @@
 </svelte:head>
 
 <!-- HERO2-->
-<div transition:fade id="bgTwo" class="hero bg-fixed">
+<div transition:fade id="bgTwo" class="bg-fixed">
 	<div
 		class="bg-gradient-to-b from-black/20 to-gray-900 w-full h-full py-20 grid place-items-center"
 	>
@@ -53,11 +53,13 @@
 </div>
 
 <!-- Banner -->
-<div class="lg:w-2/3 mx-auto my-20">
+<div class="lg:w-2/3 mx-auto my-20 py-20">
 	<img src={Banner} alt="Hodlonaut Banner" width="1280" />
 </div>
 
-<div class="flex justify-center my-8">
+<div class="flex justify-center my-8 relative">
+	<!-- blob -->
+	<div class="w-96 h-96 bg-blue-900 blur-2xl rounded-full opacity-30 absolute top-0 left-20" />
 	<div class="lg:flex lg:space-x-4">
 		<a
 			href="https://defendingbtc.com"
