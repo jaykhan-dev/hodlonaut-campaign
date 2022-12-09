@@ -27,9 +27,13 @@
 				<p>&#10003; New Deals</p>
 			</div>
 		</div>
-		<div class="flex items-center space-x-4">
-			<button class="btn border-2 border-white"> Sign up free &#8702;</button>
-			<button class="btn border-2 border-white">Contact team &#8702;</button>
+		<div class="lg:flex items-center lg:space-x-4 space-y-2">
+			<div>
+				<button class="btn border-2 border-white flex items-center space-x-2"
+					><img src={Substack} width={20} alt="" class="mx-2" /> Substack &#8702;</button
+				>
+			</div>
+			<!-- <button class="btn border-2 border-white">Contact team &#8702;</button> -->
 		</div>
 	</div>
 

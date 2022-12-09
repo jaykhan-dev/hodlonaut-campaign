@@ -12,7 +12,7 @@
 </svelte:head>
 
 <!-- HERO2-->
-<div transition:fade id="bgTwo" class="bg-fixed">
+<div transition:fade id="bgTwo" class="bg-fixed block">
 	<div
 		class="bg-gradient-to-b from-black/20 to-gray-900 w-full h-full py-20 grid place-items-center"
 	>
@@ -45,7 +45,7 @@
 						loop
 						autoplay
 						class="opacity-40"
-						style="width: 400px; height: 400px"
+						style="width: 300px; height: 300px"
 					/>
 				</div>
 			</div>

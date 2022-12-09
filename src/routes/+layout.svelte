@@ -10,7 +10,7 @@
 <div class:dark>
 	<Header />
 
-	<main>
+	<main class="">
 		<slot />
 	</main>
 
