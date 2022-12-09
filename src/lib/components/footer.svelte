@@ -13,12 +13,10 @@
 	/>
 </svelte:head>
 
-<footer class="text-white lg:p-0 p-4 bg-white dark:bg-gray-900">
+<footer class="text-white lg:p-0 p-4 bg-white dark:bg-gray-900 border-t border-white/20">
 	<!-- SIGNUP -->
 
-	<div
-		class="lg:flex items-center justify-between p-6 rounded shadow-xl lg:w-2/3 mx-auto bg-gradient-to-r from-violet-500 via-blue-600 to-sky-500"
-	>
+	<div class="lg:flex items-center justify-between lg:w-2/3 mx-auto">
 		<div>
 			<h1 class="lg:text-4xl text-3xl font-bold">Get regular updates</h1>
 			<div class="lg:flex lg:space-x-4 my-6">
@@ -48,7 +46,6 @@
 				<i class="fa-brands fa-twitter" />
 				<i class="fa-brands fa-telegram" />
 				<i class="fa-brands fa-github" />
-				<img src={Substack} alt="substack" width={19} />
 			</div>
 		</div>
 	</div>

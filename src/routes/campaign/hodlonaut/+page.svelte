@@ -14,11 +14,18 @@
 <!-- HERO2-->
 <div transition:fade id="bgTwo" class="bg-fixed block">
 	<div
-		class="bg-gradient-to-b from-black/20 to-gray-900 w-full h-full py-20 grid place-items-center"
+		class="bg-gradient-to-b from-black/60 to-gray-900 w-full h-full py-20 grid place-items-center"
 	>
+		<!-- Banner -->
+		<div
+			class="bg-white dark:bg-gray-900 grid place-items-center my-8 border rounded border-white/20 shadow-2xl"
+		>
+			<img src={Banner} alt="Hodlonaut Banner" width="1280" />
+		</div>
 		<div class="hero-content text-white">
-			<div class="grid lg:grid-cols-2 my-20">
-				<div>
+			<div class="grid lg:grid-cols-2">
+				<!-- COL -->
+				<div class="">
 					<h1 class="lg:text-8xl text-6xl font-bold">Hodlonaut</h1>
 
 					<p class="my-4">
@@ -36,51 +43,29 @@
 						<button class="btn btn-outline">Fixed Price</button>
 					</div>
 				</div>
-				<!-- LOTTIE -->
-				<div class="grid place-items-center">
-					<lottie-player
-						src="https://assets2.lottiefiles.com/packages/lf20_rmizwv6a.json"
-						background="transparent"
-						speed="1"
-						loop
-						autoplay
-						class="opacity-40"
-						style="width: 300px; height: 300px"
-					/>
+
+				<!-- COL -->
+				<div class="grid relative text-black dark:text-white">
+					<h1 class="uppercase text-xl font-bold my-8">Get in touch!</h1>
+					<div class="grid lg:grid-cols-3 gap-4">
+						<a
+							href="https://defendingbtc.com"
+							class="btn btn-primary"
+							rel="noopener noreferrer"
+							target="_blank">@defendingbtc</a
+						>
+					</div>
 				</div>
+
+				<!-- LOTTIE -->
+				<div class="grid place-items-center" />
 			</div>
 		</div>
 	</div>
 </div>
 
-<!-- Banner -->
-<div class="bg-white dark:bg-gray-900 grid place-items-center py-8">
-	<img src={Banner} alt="Hodlonaut Banner" width="1280" />
-</div>
+<!-- CONTACT -->
 
-<div class="grid place-items-center relative bg-white dark:bg-gray-900 text-black dark:text-white">
-	<h1 class="uppercase text-xl font-bold my-8">Get in touch!</h1>
-	<div class="grid lg:grid-cols-3 gap-4">
-		<a
-			href="https://defendingbtc.com"
-			class="btn btn-primary"
-			rel="noopener noreferrer"
-			target="_blank">@defendingbtc</a
-		>
-		<a
-			href="https://twitter.com/hodlonaut"
-			class="btn btn-secondary"
-			rel="noopener noreferrer"
-			target="_blank">@hodlonaut</a
-		>
-		<a
-			href="https://www.citadel21.com/"
-			class="btn btn-outline"
-			rel="noopener noreferrer"
-			target="_blank">@citadel21</a
-		>
-	</div>
-</div>
 <!-- AUCTIONS -->
 <div class="grid place-items-center bg-white dark:bg-gray-900 pt-20 text-black dark:text-white">
 	<h1 class="lg:text-8xl text-4xl font-black my-8">Auctions</h1>
