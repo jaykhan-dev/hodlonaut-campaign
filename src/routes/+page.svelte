@@ -3,6 +3,10 @@
 	import NewLogo from '$lib/images/new-logo.svg';
 </script>
 
+<svelte:head>
+	<title>Plebeian Market</title>
+</svelte:head>
+
 <div transition:fade class="h-screen grid place-items-center bg-white dark:bg-gray-900">
 	<div class="grid place-items-center text-black dark:text-white">
 		<img src={NewLogo} width={250} alt="Plebeian Market logo" class="my-8" />
