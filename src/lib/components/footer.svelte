@@ -13,11 +13,11 @@
 	/>
 </svelte:head>
 
-<footer class="text-white mt-32 lg:p-0 p-4">
+<footer class="text-white lg:p-0 p-4 bg-white dark:bg-gray-900">
 	<!-- SIGNUP -->
 
 	<div
-		class="my-8 lg:flex items-center justify-between p-6 rounded shadow-xl lg:w-2/3 mx-auto bg-gradient-to-r from-violet-500 via-blue-600 to-sky-500"
+		class="lg:flex items-center justify-between p-6 rounded shadow-xl lg:w-2/3 mx-auto bg-gradient-to-r from-violet-500 via-blue-600 to-sky-500"
 	>
 		<div>
 			<h1 class="lg:text-4xl text-3xl font-bold">Get regular updates</h1>
@@ -37,10 +37,10 @@
 	<div class="">
 		<div class="lg:w-2/3 mx-auto lg:flex items-center justify-between py-6">
 			<div class="flex items-center space-x-4">
-				<p>Powered by</p>
+				<p class="text-black dark:text-white">Powered by</p>
 				<a href="https://plebian.technology" class="btn">Plebian Technology</a>
 			</div>
-			<div class="text-2xl flex items-center space-x-4 lg:my-0 my-4">
+			<div class="text-2xl flex items-center space-x-4 lg:my-0 my-4 text-black dark:text-white">
 				<i class="fa-brands fa-twitter" />
 				<i class="fa-brands fa-telegram" />
 				<i class="fa-brands fa-github" />
@@ -51,4 +51,7 @@
 </footer>
 
 <style>
+	footer {
+		padding-top: 20px;
+	}
 </style>

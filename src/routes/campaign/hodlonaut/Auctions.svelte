@@ -8,8 +8,7 @@
 	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </svelte:head>
 
-<div class="grid place-items-center lg:w-2/3 mx-auto text-center py-20 p-4">
-	<div class="flex justify-center" />
+<div class="grid place-items-center lg:w-2/3 mx-auto text-center py-20 p-4 bg-white">
 	<h1 class="lg:text-8xl text-4xl font-black my-8">Auctions</h1>
 	<p class="text-2xl">Current and past auctions</p>
 

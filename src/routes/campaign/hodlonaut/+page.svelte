@@ -53,13 +53,12 @@
 </div>
 
 <!-- Banner -->
-<div class="lg:w-2/3 mx-auto my-20 py-20">
+<div class="bg-white dark:bg-gray-900 grid place-items-center">
 	<img src={Banner} alt="Hodlonaut Banner" width="1280" />
 </div>
 
-<div class="flex justify-center my-8 relative">
-	<!-- blob -->
-	<div class="w-96 h-96 bg-blue-900 blur-2xl rounded-full opacity-30 absolute top-0 left-20" />
+<div class="grid place-items-center relative bg-white dark:bg-gray-900">
+	<h1 class="text-6xl my-8">Get in touch!</h1>
 	<div class="lg:flex lg:space-x-4">
 		<a
 			href="https://defendingbtc.com"

@@ -1,11 +1,19 @@
 <script>
 	import NewLogo from '$lib/images/new-logo.svg';
 	import BitcoinPrice from './bitcoinPrice.svelte';
+	import { fade } from 'svelte/transition';
+	import { darkTheme } from '../../Store';
+
 	let showMenu = false;
 
 	function toggleNavbar() {
 		showMenu = !showMenu;
 	}
+
+	const wait = () => new Promise((res) => setTimeout(res, 1000));
+
+	const toggleDark = () => ($darkTheme = !$darkTheme);
+	$: dark = $darkTheme;
 </script>
 
 <header class="bg-gray-900/80 backdrop-blur-md border-b border-white/20 fixed top-0 w-full z-50">
@@ -68,13 +76,19 @@
 					</ul>
 				</div>
 			</div>
-			<BitcoinPrice />
+			{#await wait()}
+				<p class="mx-8">loading...</p>
+			{:then show}
+				<div transition:fade>
+					<BitcoinPrice />
+				</div>
+			{/await}
 			<!-- LIGHT MODE AND AVATAR -->
 			<div class="flex items-center space-x-4">
 				<div>
 					<label class="swap swap-rotate">
 						<!-- this hidden checkbox controls the state -->
-						<input type="checkbox" />
+						<input type="checkbox" on:click={toggleDark} />
 
 						<!-- sun icon -->
 						<svg
