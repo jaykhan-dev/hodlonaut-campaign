@@ -3,6 +3,11 @@
 	import SpaceCat from '$lib/images/space-cat.png';
 </script>
 
+<svelte:head>
+	<title>Auction</title>
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</svelte:head>
+
 <div class="p-4 grid place-items-center bg-white dark:bg-gray-900 text-black dark:text-white">
 	<div class="grid place-items-center lg:w-2/3 mx-auto pt-20">
 		<div class="w-full">
@@ -61,7 +66,7 @@
 		</div>
 
 		<!-- ROW -->
-		<div class="grid grid-cols-4 gap-4 border-b p-4 border-white/20 my-2">
+		<div class="grid grid-cols-4 gap-4 border-b p-4 border-white/20 my-2 text-green-500">
 			<!-- COL -->
 			<div class="col-span-2 flex items-center space-x-4">
 				<div class="avatar">
@@ -69,7 +74,16 @@
 						<img src="https://placeimg.com/192/192/people" alt="avatar" />
 					</div>
 				</div>
-				<h1>ChiefMonkey</h1>
+				<h1 class="">ChiefMonkey (Winner)</h1>
+				<lottie-player
+					src="https://assets8.lottiefiles.com/packages/lf20_byBsNp.json"
+					background="transparent"
+					speed="1"
+					loop
+					autoplay
+					class=""
+					style="width: 30px; height: 30px"
+				/>
 			</div>
 			<!-- COL -->
 			<div>

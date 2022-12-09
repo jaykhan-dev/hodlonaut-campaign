@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Auctions from './Auctions.svelte';
 
-	let openTab = 1;
+	let openTab = 2;
 
 	function toggleTabs(tabNumber: number) {
 		openTab = tabNumber;
@@ -40,9 +40,7 @@
 		<div class="relative flex flex-col min-w-0 break-words bg-white dark:bg-gray-900 w-full mb-6">
 			<div class="px-4 py-5 flex-auto">
 				<div class="tab-content tab-space">
-					<div class={openTab === 1 ? 'block' : 'hidden'}>
-						<Auctions />
-					</div>
+					<div class={openTab === 1 ? 'block' : 'hidden'} />
 					<div class={openTab === 2 ? 'block' : 'hidden'}>
 						<Auctions />
 					</div>
