@@ -4,9 +4,12 @@
 </script>
 
 <div transition:fade class="h-screen grid place-items-center bg-white dark:bg-gray-900">
-	<div class="grid place-items-center">
-		<img src={NewLogo} width={400} alt="Plebeian Market logo" class="my-8" />
+	<div class="grid place-items-center text-black dark:text-white">
+		<img src={NewLogo} width={250} alt="Plebeian Market logo" class="my-8" />
 		<p class="text-2xl uppercase my-8">Welcome to</p>
-		<h1 class="lg:text-8xl text-6xl font-black">Plebeian market</h1>
+		<h1 class="lg:text-8xl text-5xl font-black">Plebeian market</h1>
+		<a href="/campaign/hodlonaut" class="my-8 text-2xl btn btn-primary"
+			>Go to the Hodlonaut Campaign</a
+		>
 	</div>
 </div>

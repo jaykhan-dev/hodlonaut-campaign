@@ -53,22 +53,22 @@
 </div>
 
 <!-- Banner -->
-<div class="bg-white dark:bg-gray-900 grid place-items-center">
+<div class="bg-white dark:bg-gray-900 grid place-items-center py-8">
 	<img src={Banner} alt="Hodlonaut Banner" width="1280" />
 </div>
 
-<div class="grid place-items-center relative bg-white dark:bg-gray-900">
+<div class="grid place-items-center relative bg-white dark:bg-gray-900 text-black dark:text-white">
 	<h1 class="text-6xl my-8">Get in touch!</h1>
 	<div class="lg:flex lg:space-x-4">
 		<a
 			href="https://defendingbtc.com"
-			class="btn btn-outline"
+			class="btn btn-primary"
 			rel="noopener noreferrer"
 			target="_blank">@defendingbtc</a
 		>
 		<a
 			href="https://twitter.com/hodlonaut"
-			class="btn btn-outline"
+			class="btn btn-secondary"
 			rel="noopener noreferrer"
 			target="_blank">@hodlonaut</a
 		>
