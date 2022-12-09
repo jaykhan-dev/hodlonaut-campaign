@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
-	import Auctions from './Auctions.svelte';
+
 	import Banner from '$lib/images/banner-100.jpg';
+	import Tabs from './TabsHodlonaut.svelte';
 </script>
 
 <svelte:head>
@@ -16,9 +17,9 @@
 		class="bg-gradient-to-b from-black/20 to-gray-900 w-full h-full py-20 grid place-items-center"
 	>
 		<div class="hero-content text-white">
-			<div class="grid lg:grid-cols-2">
+			<div class="grid lg:grid-cols-2 my-20">
 				<div>
-					<h1 class="text-8xl font-bold">Hodlonaut</h1>
+					<h1 class="lg:text-8xl text-6xl font-bold">Hodlonaut</h1>
 
 					<p class="my-4">
 						Whilst we can celebrate Hodlonaut's win in Oslo, the legal battle continues. The British
@@ -29,7 +30,7 @@
 						capability whereby anyone can raise money by selling anything physical or their time for
 						either a fixed price or an auction (within the laws of the UK).
 					</p>
-					<div class="flex space-x-4 my-8">
+					<div class="grid lg:grid-cols-3 gap-4 my-8">
 						<button class="btn btn-primary">Auction 1-hour</button>
 						<button class="btn btn-secondary">Auction Item</button>
 						<button class="btn btn-outline">Fixed Price</button>
@@ -58,8 +59,8 @@
 </div>
 
 <div class="grid place-items-center relative bg-white dark:bg-gray-900 text-black dark:text-white">
-	<h1 class="text-6xl my-8">Get in touch!</h1>
-	<div class="lg:flex lg:space-x-4">
+	<h1 class="uppercase text-xl font-bold my-8">Get in touch!</h1>
+	<div class="grid lg:grid-cols-3 gap-4">
 		<a
 			href="https://defendingbtc.com"
 			class="btn btn-primary"
@@ -80,8 +81,11 @@
 		>
 	</div>
 </div>
-
-<Auctions />
+<!-- AUCTIONS -->
+<div class="grid place-items-center bg-white dark:bg-gray-900 pt-20 text-black dark:text-white">
+	<h1 class="lg:text-8xl text-4xl font-black my-8">Auctions</h1>
+</div>
+<Tabs />
 
 <style>
 	#bgTwo {
@@ -89,6 +93,5 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		height: 650px;
 	}
 </style>

@@ -9,17 +9,14 @@
 </svelte:head>
 
 <div class="bg-white dark:bg-gray-900 text-black dark:text-white">
-	<div class="grid place-items-center lg:w-2/3 mx-auto text-center py-20 p-4">
-		<h1 class="lg:text-8xl text-4xl font-black my-8">Auctions</h1>
-		<p class="text-2xl">Current and past auctions</p>
-
+	<div class="grid place-items-center text-center p-4">
 		<!-- <div class="tabs tabs-boxed">
       <a class="tab">Tab 1</a>
       <a class="tab">Tab 2</a>
       <a class="tab">Tab 3</a>
     </div> -->
 
-		<div class="grid lg:grid-cols-4 gap-4 my-20">
+		<div class="grid lg:grid-cols-4 gap-4">
 			<!-- CARD -->
 			<div class="card border border-white/20">
 				<figure><img src={SpaceCat} alt="car!" /></figure>
