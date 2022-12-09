@@ -6,7 +6,7 @@
 	}
 </script>
 
-<div class="flex flex-wrap lg:w-2/3 mx-auto p-2">
+<div class="flex flex-wrap">
 	<div class="w-full">
 		<ul class="flex my-4">
 			<li class="-mb-px mr-2 last:mr-0 text-center">
@@ -20,7 +20,7 @@
 						toggleTabs;
 					}}
 				>
-					Profile
+					Project Details
 				</button>
 			</li>
 			<li class="-mb-px mr-2 last:mr-0 text-center">
@@ -31,7 +31,7 @@
 						: 'text-orange-600 bg-white'}"
 					on:click={() => toggleTabs(2)}
 				>
-					Settings
+					Tab2
 				</button>
 			</li>
 			<li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
@@ -42,7 +42,7 @@
 						: 'text-orange-600 bg-white'}"
 					on:click={() => toggleTabs(3)}
 				>
-					Options
+					Tab3
 				</button>
 			</li>
 		</ul>
@@ -53,30 +53,15 @@
 				<div class="tab-content tab-space">
 					<div class={openTab === 1 ? 'block' : 'hidden'}>
 						<p>
-							Collaboratively administrate empowered markets via plug-and-play networks. Dynamically
-							procrastinate B2C users after installed base benefits.
-							<br />
-							<br />
-							Dramatically visualize customer directed convergence without revolutionary ROI.
+							We will chat through Jitsi face to face although I will be wearing a mask. We can talk
+							about anything apart from shitcoins.
 						</p>
 					</div>
 					<div class={openTab === 2 ? 'block' : 'hidden'}>
-						<p>
-							Completely synergize resource taxing relationships via premier niche markets.
-							Professionally cultivate one-to-one customer service with robust ideas.
-							<br />
-							<br />
-							Dynamically innovate resource-leveling customer service for state of the art customer service.
-						</p>
+						<p>tab2</p>
 					</div>
 					<div class={openTab === 3 ? 'block' : 'hidden'}>
-						<p>
-							Efficiently unleash cross-media information without cross-media value. Quickly
-							maximize timely deliverables for real-time schemas.
-							<br />
-							<br />
-							Dramatically maintain clicks-and-mortar solutions without functional solutions.
-						</p>
+						<p>tab3</p>
 					</div>
 				</div>
 			</div>
