@@ -13,7 +13,7 @@
 	/>
 </svelte:head>
 
-<footer class="text-white lg:p-0 p-4 bg-white dark:bg-gray-900 border-t border-white/20">
+<footer class="text-white lg:p-0 p-4 bg-gray-900 dark:bg-gray-900 border-t border-white/20">
 	<!-- SIGNUP -->
 
 	<div class="lg:flex items-center justify-between lg:w-2/3 mx-auto">
@@ -39,10 +39,10 @@
 	<div class="">
 		<div class="lg:w-2/3 mx-auto lg:flex items-center justify-between py-6">
 			<div class="flex items-center space-x-4">
-				<p class="text-black dark:text-white">Powered by</p>
+				<p class="">Powered by</p>
 				<a href="https://plebian.technology" class="btn">Plebian Technology</a>
 			</div>
-			<div class="text-2xl flex items-center space-x-4 lg:my-0 my-4 text-black dark:text-white">
+			<div class="text-2xl flex items-center space-x-4 lg:my-0 my-4 text-white">
 				<i class="fa-brands fa-twitter" />
 				<i class="fa-brands fa-telegram" />
 				<i class="fa-brands fa-github" />

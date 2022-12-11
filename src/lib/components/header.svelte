@@ -61,7 +61,7 @@
 		>
 			<div class="flex space-x-4 lg:mx-4">
 				<div class="dropdown">
-					<button class="btn btn-outline">Campaign</button>
+					<button class="flex items-center">Campaign</button>
 					<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-36">
 						<li><a href="/campaign/hodlonaut">Hodlonaut</a></li>
 						<li><a href="/campaign/auction">Auction</a></li>
@@ -69,10 +69,11 @@
 				</div>
 
 				<div class="dropdown">
-					<button class="btn btn-outline">Scenes</button>
+					<button class="">Scenes</button>
 					<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-36">
 						<li><a href="/scenes/one">One</a></li>
 						<li><a href="/scenes/two">Two</a></li>
+						<li><a href="/scenes/three">Three</a></li>
 					</ul>
 				</div>
 			</div>

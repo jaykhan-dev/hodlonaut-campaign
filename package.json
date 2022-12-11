@@ -17,6 +17,7 @@
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
+		"@types/three": "^0.146.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
 		"autoprefixer": "^10.4.7",
@@ -38,6 +39,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.42.1"
+		"daisyui": "^2.42.1",
+		"svelte-cubed": "^0.2.1",
+		"three": "^0.147.0"
 	}
 }
