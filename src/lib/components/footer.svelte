@@ -16,7 +16,7 @@
 <footer class="text-white lg:p-0 p-4 bg-gray-900 dark:bg-gray-900 border-t border-white/20">
 	<!-- SIGNUP -->
 
-	<div class="lg:flex items-center justify-between lg:w-2/3 mx-auto">
+	<div class="lg:flex items-center justify-between lg:w-2/3 mx-auto py-4">
 		<div>
 			<h1 class="lg:text-4xl text-3xl font-bold">Get regular updates</h1>
 			<div class="lg:flex lg:space-x-4 my-6">

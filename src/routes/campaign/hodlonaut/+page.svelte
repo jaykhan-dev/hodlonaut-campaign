@@ -27,7 +27,7 @@
 
 <!-- ACTION BUTTONS -->
 <div class="text-black dark:text-white bg-white dark:bg-gray-900">
-	<div class="grid lg:grid-cols-2 gap-10 lg:w-2/3 mx-auto">
+	<div class="grid lg:grid-cols-2 gap-10 lg:w-2/3 mx-auto p-2">
 		<!-- COL -->
 		<div class="">
 			<h1 class="lg:text-8xl text-6xl font-bold">Hodlonaut</h1>
@@ -69,13 +69,13 @@
 				>
 			</div>
 			<div class="grid lg:grid-cols-1 gap-4 my-8">
-				<button class="btn btn-primary">Auction 1-hour</button>
+				<button class="btn btn-primary">Auction 1-hour of your time</button>
 				<div class="">
 					<p class="text-center">OR</p>
 				</div>
 				<div class="grid grid-cols-2 gap-4">
 					<button class="btn btn-outline">Auction Item</button>
-					<button class="btn btn-outline">Fixed Price</button>
+					<button class="btn btn-outline">Sell Item</button>
 				</div>
 			</div>
 		</div>
