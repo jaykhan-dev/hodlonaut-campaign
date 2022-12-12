@@ -60,11 +60,11 @@
 				: 'hidden'}"
 		>
 			<div class="flex space-x-4 lg:mx-4">
-				<button class="flex items-center">
+				<button class="flex items-center hover">
 					<a href="/campaign/hodlonaut">Campaign</a>
 				</button>
 
-				<button class="">
+				<button class="hover">
 					<a href="/scenes">Scenes</a>
 				</button>
 			</div>
@@ -113,3 +113,9 @@
 		</div>
 	</nav>
 </header>
+
+<style>
+	.hover:hover {
+		color: orange;
+	}
+</style>
