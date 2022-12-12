@@ -14,7 +14,7 @@
 	});
 </script>
 
-<div transition:fade>
+<div transition:fade class="h-screen">
 	<SC.Canvas
 		antialias
 		background={new THREE.Color('skyblue')}

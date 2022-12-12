@@ -10,13 +10,13 @@
 
 <div class="flex flex-wrap p-2 bg-white dark:bg-gray-900">
 	<div class="w-full lg:w-2/3 mx-auto">
-		<ul class="flex my-4 justify-center">
+		<ul class="tabs flex my-4 justify-center">
 			<li class="-mb-px mr-2 last:mr-0 text-center">
 				<button
-					class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal {openTab ===
+					class="text-xs font-bold uppercase px-5 py-3 block tab border-b leading-normal {openTab ===
 					1
-						? 'text-white bg-orange-600'
-						: 'text-orange-600 bg-white'}"
+						? 'tab-active border-b-4'
+						: 'tab'}"
 					on:click={() => toggleTabs(1)}
 					on:keydown={() => {
 						toggleTabs;
@@ -27,10 +27,10 @@
 			</li>
 			<li class="-mb-px mr-2 last:mr-0 text-center">
 				<button
-					class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal {openTab ===
+					class="text-xs font-bold uppercase px-5 py-3 block tab border-b leading-normal {openTab ===
 					2
-						? 'text-white bg-orange-600'
-						: 'text-orange-600 bg-white'}"
+						? 'tab-active border-b-4'
+						: 'tab'}"
 					on:click={() => toggleTabs(2)}
 				>
 					Past

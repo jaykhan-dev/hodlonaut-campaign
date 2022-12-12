@@ -16,7 +16,7 @@
 	$: dark = $darkTheme;
 </script>
 
-<header class="bg-gray-900/80 backdrop-blur-md border-b border-white/20 fixed top-0 w-full z-50">
+<header class="bg-gray-900/90 backdrop-blur-md border-b border-white/20 fixed top-0 w-full z-50">
 	<nav class="lg:w-2/3 py-4 px-4 mx-auto md:flex md:justify-between md:items-center">
 		<div class="flex items-center justify-between">
 			<div class="flex items-center space-x-2">
@@ -60,30 +60,21 @@
 				: 'hidden'}"
 		>
 			<div class="flex space-x-4 lg:mx-4">
-				<div class="dropdown">
-					<button class="flex items-center">Campaign</button>
-					<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-36">
-						<li><a href="/campaign/hodlonaut">Hodlonaut</a></li>
-						<li><a href="/campaign/auction">Auction</a></li>
-					</ul>
-				</div>
+				<button class="flex items-center">
+					<a href="/campaign/hodlonaut">Campaign</a>
+				</button>
 
-				<div class="dropdown">
-					<button class="">Scenes</button>
-					<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-36">
-						<li><a href="/scenes/one">One</a></li>
-						<li><a href="/scenes/two">Two</a></li>
-						<li><a href="/scenes/three">Three</a></li>
-					</ul>
-				</div>
+				<button class="">
+					<a href="/scenes">Scenes</a>
+				</button>
 			</div>
-			{#await wait()}
+			<!-- {#await wait()}
 				<p class="mx-8">loading...</p>
 			{:then show}
 				<div transition:fade>
 					<BitcoinPrice />
 				</div>
-			{/await}
+			{/await} -->
 			<!-- LIGHT MODE AND AVATAR -->
 			<div class="flex items-center space-x-4">
 				<div>

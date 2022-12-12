@@ -36,8 +36,8 @@
 	</div>
 
 	<!-- DISCLAIMERS -->
-	<div class="">
-		<div class="lg:w-2/3 mx-auto lg:flex items-center justify-between py-6">
+	<div class="border-t border-white/20 lg:w-2/3 mx-auto">
+		<div class="lg:flex items-center justify-between py-6">
 			<div class="flex items-center space-x-4">
 				<p class="">Powered by</p>
 				<a href="https://plebian.technology" class="btn">Plebian Technology</a>

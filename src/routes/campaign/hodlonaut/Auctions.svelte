@@ -18,9 +18,9 @@
 
 		<div class="">
 			<!-- CARD -->
-			<div class="grid lg:grid-cols-3 border border-white/20">
+			<div class="grid lg:grid-cols-3 border border-black/20 dark:border-white/20">
 				<figure class="grid place-items-center p-2"><img src={SpaceCat} alt="space cat" /></figure>
-				<div class="lg:col-span-2 p-4">
+				<div class="lg:col-span-2 p-2">
 					<div
 						class="lg:flex items-center justify-between border p-2 rounded border-white/20 bg-green-300 text-black"
 					>
@@ -61,7 +61,9 @@
 						</div>
 					</div>
 					<div class="flex justify-between items-center mt-8">
-						<a href="/campaign/auction" class="uppercase font-bold">See Details</a>
+						<a href="/campaign/auction" class="uppercase font-bold hover:translate-x-2 duration-300"
+							>See Details</a
+						>
 						<p class="text-left text-sm font-mono text-gray-500">2022-01-03</p>
 					</div>
 				</div>
