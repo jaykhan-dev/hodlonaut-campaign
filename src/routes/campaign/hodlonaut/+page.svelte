@@ -45,7 +45,7 @@
 
 		<!-- COL -->
 		<div class="grid relative text-black dark:text-white">
-			<div class="border-b">
+			<div class="">
 				<h1 class="uppercase text-xl font-bold my-8">Verify, Don't Trust.</h1>
 				<p class="font-bold text-sm">
 					Note: all money from the sales in this campaign will go to addresses generated from the
@@ -60,7 +60,7 @@
 					<button class="btn btn-outline">Copy XPUB</button>
 				</div>
 			</div>
-			<div class="flex justify-center py-4 border-b">
+			<div class="flex justify-center py-4 border-b border-t dark:border-white/20 border-black/20">
 				<a
 					href="https://defendingbtc.com"
 					class="text-3xl font-bold"
